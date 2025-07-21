@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Vein']
+
+roboflow:
+  workspace: vein-tvbbm
+  project: vein-qz7rm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vein-tvbbm/vein-qz7rm/dataset/2

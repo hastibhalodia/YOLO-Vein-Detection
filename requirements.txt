@@ -1,0 +1,22 @@
+# Core CV and ML
+opencv-python
+numpy
+torch
+torchvision
+matplotlib
+pandas
+scikit-learn
+
+# YOLOv5 dependencies
+PyYAML
+tqdm
+seaborn
+pillow
+
+# Streamlit for UI
+streamlit
+
+# Additional utilities
+ultralytics
+requests
+
