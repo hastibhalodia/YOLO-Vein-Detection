@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+opencv-python
+torch
+torchvision
+yolov5  # for model loading, or use ultralytics if preferred
+numpy
+python-dotenv
+requests
+# CORS
+fastapi[all]
+
