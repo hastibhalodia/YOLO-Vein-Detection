@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: vein-backend
+    volumes:
+      - ./backend/model:/app/backend/model:ro
+    environment:
+      - UVICORN_WORKERS=2
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: vein-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"

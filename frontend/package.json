@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
+    "@mui/icons-material": "5.15.20",
+    "@mui/material": "5.15.20",
     "cra-template-pwa-typescript": "2.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
